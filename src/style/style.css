@@ -137,6 +137,7 @@ a {
 
 .section-about__wrapper {
   display: flex;
+  margin-bottom: 40px;
 }
 
 .section-about__paragraph {
@@ -154,11 +155,32 @@ a {
   -o-border-radius: 50%;
 }
 
+.third-title {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section-about-skills__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-about-skills__img {
+  display: block;
+  width: 10%;
+}
+
+.tailwind-logo {
+  height: 80px;
+}
+
 /* портфолио */
 
 .section-portfolio {
   background-color: #444444;
   padding: 100px;
+  margin-bottom: 100px;
 }
 
 .portfolio-works-wrapper {
@@ -226,4 +248,25 @@ a {
 .portfolio-card__button:hover {
   background-color: #686868;
   color: rgb(84, 250, 200);
+}
+
+/* Контакты */
+
+.section-contacts__title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contacts__wrapper > a {
+  display: block;
+}
+
+.contacts__img {
+  width: 50px;
 }
