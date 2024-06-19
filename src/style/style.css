@@ -269,4 +269,86 @@ a {
 
 .contacts__img {
   width: 50px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.contacts__img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.email-btn {
+  display: block;
+  margin: 50px auto 100px auto;
+  width: 300px;
+  text-align: center;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.email-btn:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* Футер */
+
+.footer {
+  height: 300px;
+  background-color: black;
+  color: white;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.tel__text {
+  display: inline-block;
+  margin-left: 60%;
+  margin-bottom: 15px;
+}
+
+.tel__text:hover {
+  color: rgb(84, 250, 200);
+  text-decoration: underline;
+}
+
+.mail__wrapper {
+  margin-bottom: 70px;
+}
+.mail__text {
+  display: inline-block;
+  margin-left: 60%;
+}
+
+.mail__text:hover {
+  color: rgb(84, 250, 200);
+  text-decoration: underline;
+}
+
+.footer__year {
+  color: #7d7d7d;
+  font-size: 14px;
+  text-align: center;
 }
