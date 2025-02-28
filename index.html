@@ -14,18 +14,25 @@
     <!-- Хедер -->
     <section class="section-header">
         <div class="container">
-            <nav class="nav-menu">
-                <a class="nav-menu__logo" href="#">Corey_angeles</a>
-                    <ul class="nav-menu-list">
-                        <li class="nav-menu-list__item"><a href="#about">Обо мне</a></li>
-                        <li class="nav-menu-list__item"><a href="#portfolio">Портфолио</a></li>
-                        <li class="nav-menu-list__item"><a href="#contacts">Контакты</a></li>
-                    </ul>
-            </nav>
-            <div class="main-text-wrapper" data-aos="fade-right">
-                <h1 class="main-title">Привет всем, меня зовут Илья. <br/>Я <span class="main-title-frontend">Frontend</span> разработчик.</h1>
-                <a href="#portfolio" class="main-button-about">Смотреть мои работы &#8595;</a>
-            </div>
+            <header class="header">
+                <nav class="nav-menu">
+                    <a class="nav-menu__logo" href="#">Corey_angeles</a>
+                    <button class="nav-menu__burger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                        <ul class="nav-menu-list">
+                            <li class="nav-menu-list__item"><a href="#about" class="nav-menu-list__link">Обо мне</a></li>
+                            <li class="nav-menu-list__item"><a href="#portfolio" class="nav-menu-list__link">Портфолио</a></li>
+                            <li class="nav-menu-list__item"><a href="#contacts" class="nav-menu-list__link">Контакты</a></li>
+                        </ul>
+                </nav>
+                <div class="main-text-wrapper" data-aos="fade-right">
+                    <h1 class="main-title">Привет всем, меня зовут Илья. <br/>Я <span class="main-title-frontend">Frontend</span> разработчик.</h1>
+                    <a href="#portfolio" class="main-button-about">Смотреть мои работы &#8595;</a>
+                </div>
+            </header>
         </div>
     </section>
     <!-- Обо мне -->
@@ -44,7 +51,6 @@
                 <img src="./src/img/react.png" alt="react_logo" class="section-about-skills__img">
                 <img src="./src/img/git.png" alt="git_logo" class="section-about-skills__img">
                 <img src="./src/img/sass.png" alt="sass_logo" class="section-about-skills__img">
-                <img src="./src/img/tailwind.png" alt="tailwind_logo" class="section-about-skills__img tailwind-logo">
             </div>
         </div>
     </section>
@@ -100,14 +106,15 @@
             <a href="mailto:warrzone@yandex.ru" class="email-btn" data-aos="fade-down">Написать мне на почту</a>
         </div>
     </section>
+    <!-- Футер -->
     <footer class="footer">
         <div class="container">
-            <nav class="nav-menu mb-20">
+            <nav class="mb-20 nav-menu-footer">
                 <a class="nav-menu__logo" href="#">Corey_angeles</a>
-                    <ul class="nav-menu-list">
-                        <li class="nav-menu-list__item"><a href="#about">Обо мне</a></li>
-                        <li class="nav-menu-list__item"><a href="#portfolio">Портфолио</a></li>
-                        <li class="nav-menu-list__item"><a href="#contacts">Контакты</a></li>
+                    <ul class="nav-menu-list-footer">
+                        <li class="nav-menu-list__item-footer"><a href="#about">Обо мне</a></li>
+                        <li class="nav-menu-list__item-footer"><a href="#portfolio">Портфолио</a></li>
+                        <li class="nav-menu-list__item-footer"><a href="#contacts">Контакты</a></li>
                     </ul>
             </nav>
             <div class="tel__wrapper">
